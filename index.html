@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salman Merch</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">Salman Shop</h2>
+                <p class="sub-heading">Laptop & Komputer</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">IDR 2,5JT</h4>
+                <p class="item">Laptop</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">IDR 5,5JT</h4>
+                <p class="item">Komputer</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            <div class="brand">
+                <h1>Salman Elektronik</h1>
+            </div>
+            <ul class="menu-list"> 
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>   
+        </nav>
+        <section class="services">
+            <div class="service">
+                <div class="icon"><img src="img/icon/handshake.png" alt=""></div>
+                <h3>Jasa</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic veritatis, nesciunt dignissimos suscipit ex eligendi.</p>
+            </div>
+            <div class="service">
+                <div class="icon"><img src="img/icon/phone.png" alt=""></div>
+                <h3>Call Center</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic veritatis, nesciunt dignissimos suscipit ex eligendi.</p>
+            </div>
+            <div class="service">
+                <div class="icon"><img src="img/icon/laptop.png" alt=""></div>
+                <h3>Laptop</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic veritatis, nesciunt dignissimos suscipit ex eligendi.</p>
+            </div>
+        </section>
+        <section class="galeri">
+            <h2>Gallery</h2>
+            <img src="https://source.unsplash.com/random/200*200" alt="">
+            <img src="https://source.unsplash.com/random/201*201" alt="">
+            <img src="https://source.unsplash.com/random/202*202" alt="">
+            <img src="https://source.unsplash.com/random/203*203" alt="">
+            <img src="https://source.unsplash.com/random/204*204" alt="">
+            <img src="https://source.unsplash.com/random/205*205" alt="">
+            <img src="https://source.unsplash.com/random/206*206" alt="">
+            <img src="https://source.unsplash.com/random/207*207" alt="">
+            <img src="https://source.unsplash.com/random/208*208" alt="">
+            <img src="https://source.unsplash.com/random/209*209" alt="">
+        </section>
+    </div>
+    <script>
+        const menutoggle = document.querySelector(".menu-toggle input");
+        const nav = document.querySelector("nav ul");
+            
+        menutoggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+            });
+    </script>
+</body>
+</html>
